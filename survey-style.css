@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+h1 {
+    margin-top: 30px;
+}
+h3 {
+    color: #132e54;
+}
+#regForm {
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+#title, h1, #viewBtn {
+    color: #132e54;
+    text-align: center;
+}
+input {
+    padding: 3px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+.tab input:focus, .textarea:focus {
+    border: 1px solid #132e54 !important;
+    outline: none
+}
+input.invalid {
+    border: 1px solid #e03a0666
+}
+.tab {
+    display: none
+}
+button {
+    background-color: #132e54;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer
+}
+button:hover {
+    opacity: 0.8
+}
+input:hover {
+    cursor: pointer;
+}
+button:focus {
+    outline: none !important
+}
+#prevBtn {
+    background-color: #bbbbbb;
+}
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center
+}
+.step {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #132e54;
+    opacity: 0.5
+}
+.step.active {
+    opacity: 1
+}
+.step.finish {
+    color: #fff;
+    background: #132e54;
+    opacity: 1
+}
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.thanks-message {
+    display: none;
+}
+.admin {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+}
+.survey {
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+}
+.question, th {
+    border-bottom: 1px solid #e6e6e6;
+}
+.question p {
+    margin: 0;
+}
+.border-bot {
+    border-bottom: 1px solid #e6e6e6;
+}
+.question:hover {
+    background-color: #f1f1f1;
+    padding: none;
+    margin: none;
+}
+.question td:hover {
+    background-color: #f1f1f1;
+    border: none;
+    padding: none;
+    margin: none;
+}
+.question tr:hover {
+    background-color: #f1f1f1;
+    border: none;
+    padding: none;
+    margin: none;
+}
+.textarea {
+    width: 100%;
+    min-height: 100px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    border-radius: 10px;
+}
+#nextBtn, #prevBtn, #signoutBtn, #submit-btn {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.btn-modal {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+#btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+#viewBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+}
+.tab {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+input[type="radio" i] {
+    margin: auto;
+    padding: 30px;
+    width: 30px;
+}
+div.choices {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+.legend-container {
+    display: table;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f1f1f1;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+ul#legend li {
+    display: inline;
+    margin: 10px;
+}
+input#Other {
+    width: 50%;
+    height: 5%;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.pagination {
+    display: inline-block;
+    margin: 10px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+.pagination a.active {
+    background-color: #f1f1f1;
+    color: black;
+}
+.pagination a:hover:not(.active) {
+    background-color: #f1f1f1;
+}
+.pagination a:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pagination a:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebar {
+    float: left;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    /* Don't forget this, required for the stickiness */
+}
+.sidebar p {
+    cursor: pointer;
+    width: 100%;
+}
+.sidebar p:hover {
+    font-weight: bolder;
+}
+.main {
+    border-left: 1px solid #e6e6e6;
+    margin-left: 23%;
+    padding: 0px 10px;
+}
+.main_indiv {
+    margin-left: 23%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+th {
+    position: sticky;
+    top: 0;
+    /* Don't forget this, required for the stickiness */
+}
+.list {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0px 10px;
+}
+.rate-list {
+    max-height: 350px;
+    overflow-y: auto;
+}
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 70%;
+}
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    border-radius: 0%;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#chart-container {
+    width: 70%;
+    height: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.counter {
+    font-size: 55px;
+    font-weight: bolder;
+    padding-top: 18px;
+}
+.circle {
+    background: #f1f1f1;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-top: 30px;
+}
+.left-half {
+    float: left;
+    width: 70%;
+}
+.right-half {
+    float: left;
+}
+.header {
+    margin-top: 70px;
+    font-size: 16px;
+}
+#scrolltop-btn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: white;
+    /* Set a background color */
+    color: #132e54;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    width: 50.68px;
+}
+#scrolltop-btn:hover {
+    background-color: #132e54;
+    /* Add a dark-grey background on hover */
+    color: white;
+}
+#normal-btn {
+    border-radius: 4px;
+    font-size: 14px;
+    width: 40%;
+    color: white;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#exclamation {
+    animation: 1s shake;
+    animation-iteration-count: 1;
+}
+@keyframes shake {
+    0% {
+        transform: skewX(-15deg);
+    }
+    5% {
+        transform: skewX(15deg);
+    }
+    10% {
+        transform: skewX(-15deg);
+    }
+    15% {
+        transform: skewX(15deg);
+    }
+    20% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: skewX(0deg);
+    }
+}
+/*loading animation*/
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
