@@ -32,16 +32,28 @@ A standalone exit survey and an SQL database system for the University of the Ph
 
 <h2>Screenshots</h2>
 <p align="center">
-  <b>Login Page</b><br />
-  <img src="https://i.imgur.com/cRUh5li.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <b> Login Page</b><br/>
+  <img src="https://i.imgur.com/cRUh5li.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
   <br />
-  <b>Survey Page</b><br />
-  <img src="https://i.imgur.com/SrcjBfa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <b>Survey Page</b><br/>
+  <img src="https://i.imgur.com/SrcjBfa.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
   <br />
-  <b>Adminstrator Page</b><br />
-  <img src="https://i.imgur.com/Z9SaN4c.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <b>Adminstrator Page (1 of 2)</b><br/>
+  <img src="https://i.imgur.com/Z9SaN4c.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br/>
+  <br/>
+  <b>Adminstrator Page (2 of 2)</b><br/>
+  <img src="https://i.imgur.com/FWoKMC7.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br />
+  <br />
+  <b>Respondents Page (1 of 2)</b><br/>
+  <img src="https://i.imgur.com/dJznzzl.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br />
+  <br />
+  <b>Respondents Page (2 of 2)</b><br/>
+  <img src="https://i.imgur.com/oij62Dc.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
   <br />
   
