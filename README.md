@@ -25,9 +25,9 @@ A standalone exit survey and an SQL database system for the University of the Ph
 <p>
 1. Install XAMPP <br/>
 2. Start Apache and MySQL modules <br/>
-3. Go to localhost/phpMyAdmin in the browser and import the <code>exit_survey.sql</code> file <br/>
+3. Go to http://localhost/phpMyAdmin in the browser and import the <code>exit_survey.sql</code> file <br/>
 4. Store all the files to C:\XAMPP\htdocs directory <br/>
-5. Proceed to localhost/login.php to start the program <br/>
+5. Proceed to http://localhost/login.php to start the program <br/>
 </p>
 
 <h2>Screenshots</h2>
