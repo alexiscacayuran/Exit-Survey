@@ -32,17 +32,29 @@ A standalone exit survey and an SQL database system for the University of the Ph
 
 <h2>Screenshots</h2>
 <p align="center">
-  <img src="https://i.imgur.com/fjbioxm.png" height="80%" width="80%" alt="Viraly"/>
+  <b> Login Page</b><br/>
+  <img src="https://i.imgur.com/cRUh5li.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
-  <img src="https://i.imgur.com/FRoPjx1.png" height="80%" width="80%" alt="Viraly"/>
   <br />
-  <img src="https://i.imgur.com/1oaqya2.png" height="80%" width="80%" alt="Viraly"/>
+  <b>Survey Page</b><br/>
+  <img src="https://i.imgur.com/SrcjBfa.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
-  <img src="https://i.imgur.com/uB5dydC.png" height="80%" width="80%" alt="Viraly"/>
   <br />
-  <img src="https://i.imgur.com/aP6MaI1.png" height="80%" width="80%" alt="Viraly"/>
+  <b>Adminstrator Page (1 of 2)</b><br/>
+  <img src="https://i.imgur.com/Z9SaN4c.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br/>
+  <br/>
+  <b>Adminstrator Page (2 of 2)</b><br/>
+  <img src="https://i.imgur.com/FWoKMC7.jpg" height="80%" width="80%" alt="Exit Survey"/>
   <br />
-  <img src="https://i.imgur.com/y1f6RiM.png" height="80%" width="80%" alt="Viraly"/>
+  <br />
+  <b>Respondents Page (1 of 2)</b><br/>
+  <img src="https://i.imgur.com/dJznzzl.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br />
+  <br />
+  <b>Respondents Page (2 of 2)</b><br/>
+  <img src="https://i.imgur.com/oij62Dc.jpg" height="80%" width="80%" alt="Exit Survey"/>
+  <br />
   <br />
   
 </p>
